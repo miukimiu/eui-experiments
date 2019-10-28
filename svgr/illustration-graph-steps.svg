@@ -1,0 +1,95 @@
+<svg width="260" height="260" viewBox="0 0 260 260" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="illustration-graph-steps">
+<rect id="delete" width="260" height="260" fill="#C4C4C4"/>
+<g id="grid">
+<path d="M208 165H212.017V169.068H208V165Z" fill="#E6EBF2"/>
+<path d="M208 174.492H212.017V178.559H208V174.492Z" fill="#E6EBF2"/>
+<path d="M212.017 183.983H208V188.051H212.017V183.983Z" fill="#E6EBF2"/>
+<path d="M208 193.475H212.017V197.542H208V193.475Z" fill="#E6EBF2"/>
+<path d="M212.017 202.966H208V207.034H212.017V202.966Z" fill="#E6EBF2"/>
+<path d="M208 212.458H212.017V216.525H208V212.458Z" fill="#E6EBF2"/>
+<path d="M212.017 221.949H208V226.017H212.017V221.949Z" fill="#E6EBF2"/>
+<path d="M208 231.441H212.017V235.508H208V231.441Z" fill="#E6EBF2"/>
+<path d="M212.017 240.932H208V245H212.017V240.932Z" fill="#E6EBF2"/>
+<path d="M217.374 165H221.391V169.068H217.374V165Z" fill="#E6EBF2"/>
+<path d="M221.391 174.492H217.374V178.559H221.391V174.492Z" fill="#E6EBF2"/>
+<path d="M217.374 183.983H221.391V188.051H217.374V183.983Z" fill="#E6EBF2"/>
+<path d="M221.391 193.475H217.374V197.542H221.391V193.475Z" fill="#E6EBF2"/>
+<path d="M217.374 202.966H221.391V207.034H217.374V202.966Z" fill="#E6EBF2"/>
+<path d="M221.391 212.458H217.374V216.525H221.391V212.458Z" fill="#E6EBF2"/>
+<path d="M217.374 221.949H221.391V226.017H217.374V221.949Z" fill="#E6EBF2"/>
+<path d="M221.391 231.441H217.374V235.508H221.391V231.441Z" fill="#E6EBF2"/>
+<path d="M217.374 240.932H221.391V245H217.374V240.932Z" fill="#E6EBF2"/>
+<path d="M230.764 165H226.747V169.068H230.764V165Z" fill="#E6EBF2"/>
+<path d="M226.747 174.492H230.764V178.559H226.747V174.492Z" fill="#E6EBF2"/>
+<path d="M230.764 183.983H226.747V188.051H230.764V183.983Z" fill="#E6EBF2"/>
+<path d="M226.747 193.475H230.764V197.542H226.747V193.475Z" fill="#E6EBF2"/>
+<path d="M230.764 202.966H226.747V207.034H230.764V202.966Z" fill="#E6EBF2"/>
+<path d="M226.747 212.458H230.764V216.525H226.747V212.458Z" fill="#E6EBF2"/>
+<path d="M230.764 221.949H226.747V226.017H230.764V221.949Z" fill="#E6EBF2"/>
+<path d="M226.747 231.441H230.764V235.508H226.747V231.441Z" fill="#E6EBF2"/>
+<path d="M230.764 240.932H226.747V245H230.764V240.932Z" fill="#E6EBF2"/>
+</g>
+<g id="squiggle">
+<path id="Ellipse" d="M196 15C187.716 15 181 8.28427 181 0" stroke="#E6EBF2" stroke-width="12"/>
+<path id="Ellipse_2" d="M196 15C204.284 15 211 21.7157 211 30" stroke="#E6EBF2" stroke-width="12"/>
+<path id="Ellipse_3" d="M226 45C217.716 45 211 38.2843 211 30" stroke="#E6EBF2" stroke-width="12"/>
+<path id="Ellipse_4" d="M226 45C234.284 45 241 51.7157 241 60" stroke="#E6EBF2" stroke-width="12"/>
+</g>
+<g id="squares-2">
+<rect id="Rectangle" x="82" width="24" height="24" fill="#00BFB3"/>
+<rect id="Rectangle_2" x="70" y="24" width="12" height="12" fill="#FEC514"/>
+</g>
+<g id="squares-1">
+<rect id="Rectangle_3" x="33.7363" y="119.848" width="20" height="20" transform="rotate(80 33.7363 119.848)" fill="#F5F7FA"/>
+<rect id="Rectangle_4" x="12.3037" y="113.473" width="10" height="10" transform="rotate(80 12.3037 113.473)" fill="#FEC514"/>
+</g>
+<g id="star-2">
+<path id="Union" fill-rule="evenodd" clip-rule="evenodd" d="M213 86H209V92H203V96H209V102H213V96H219V92H213V86Z" fill="#E6EBF2"/>
+</g>
+<g id="star-1">
+<path id="Union_2" fill-rule="evenodd" clip-rule="evenodd" d="M174.813 168.984L173.063 172.016L177.609 174.641L174.984 179.187L178.015 180.937L180.64 176.391L185.187 179.016L186.937 175.984L182.39 173.359L185.015 168.813L181.984 167.063L179.359 171.609L174.813 168.984Z" fill="#E6EBF2"/>
+</g>
+<g id="square-gray-1">
+<path id="Union_3" fill-rule="evenodd" clip-rule="evenodd" d="M54.9539 203.686L52.1723 204.81L53.8581 208.982L49.6857 210.668L50.8095 213.449L54.9819 211.763L56.6676 215.936L59.4492 214.812L57.7634 210.64L61.9358 208.954L60.8119 206.172L56.6396 207.858L54.9539 203.686Z" fill="#E6EBF2"/>
+</g>
+<g id="square-yellow-1">
+<rect id="Rectangle_5" x="110" y="247" width="12" height="12" fill="#FEC514"/>
+</g>
+<g id="graph-illustration">
+<g id="node-and-con-green-2">
+<rect id="Rectangle 243" width="5.72808" height="57.9968" transform="matrix(0.984808 -0.173648 -0.173648 -0.984808 89.7715 158.15)" fill="#343741"/>
+<circle id="Ellipse 14" r="14.6782" transform="matrix(0.984808 -0.173648 -0.173648 -0.984808 92.5113 157.58)" fill="#00BFB3"/>
+</g>
+<g id="node-and-con-green-1">
+<rect id="Rectangle 243_2" x="161.666" y="232.065" width="5.72808" height="45.7456" transform="rotate(140 161.666 232.065)" fill="#343741"/>
+<circle id="Ellipse 14_2" cx="159.468" cy="233.798" r="14.6782" transform="rotate(140 159.468 233.798)" fill="#00BFB3"/>
+</g>
+<g id="node-and-con-blue-4">
+<rect id="Rectangle 243_3" x="146.341" y="79.3202" width="5.72808" height="57.9968" fill="#343741"/>
+<circle id="Ellipse 14_3" cx="149.563" cy="79.6782" r="14.6782" fill="#006BB4"/>
+</g>
+<g id="node-and-con-blue-3">
+<rect id="Rectangle 243_4" x="241" y="137" width="6" height="88" transform="rotate(90 241 137)" fill="#343741"/>
+<circle id="Ellipse 14_4" cx="240.639" cy="140.678" r="14.6782" transform="rotate(90 240.639 140.678)" fill="#006BB4"/>
+</g>
+<g id="node-and-con-blue-2">
+<rect id="Rectangle 243_5" width="5.72808" height="57.9968" transform="matrix(0.939693 0.34202 0.34202 -0.939693 127.357 188.417)" fill="#343741"/>
+<circle id="Ellipse 14_5" r="14.6782" transform="matrix(0.939693 0.34202 0.34202 -0.939693 127.813 196.584)" fill="#006BB4"/>
+</g>
+<g id="node-and-con-blue-1">
+<rect id="Rectangle 243_6" x="82.1299" y="104.13" width="5.72808" height="71.6009" transform="rotate(-60 82.1299 104.13)" fill="#343741"/>
+<circle id="Ellipse 14_6" cx="84.0508" cy="101.519" r="14.6782" transform="rotate(-60 84.0508 101.519)" fill="#006BB4"/>
+</g>
+<g id="graph-illustration_center">
+<g id="abstract-arcs">
+<path id="Ellipse_5" d="M152 110C144.309 110 136.932 113.055 131.494 118.494C126.055 123.932 123 131.309 123 139C123 146.691 126.055 154.068 131.494 159.506C136.932 164.945 144.309 168 152 168L152 139L152 110Z" fill="#0077CC"/>
+<circle id="Ellipse_6" cx="152" cy="139" r="14.5" fill="#343741"/>
+<circle id="Ellipse_7" cx="152" cy="139" r="14.5" fill="#343741"/>
+<path id="Ellipse_8" d="M152 124.5C153.904 124.5 155.79 124.875 157.549 125.604C159.308 126.332 160.907 127.401 162.253 128.747C163.599 130.093 164.668 131.692 165.396 133.451C166.125 135.21 166.5 137.096 166.5 139L152 139L152 124.5Z" fill="#FA744E"/>
+<path id="Ellipse_9" d="M166.5 139C166.5 140.904 166.125 142.79 165.396 144.549C164.668 146.308 163.599 147.907 162.253 149.253C160.907 150.599 159.308 151.668 157.549 152.396C155.79 153.125 153.904 153.5 152 153.5L152 139H166.5Z" fill="#00BFB3"/>
+</g>
+</g>
+</g>
+</g>
+</svg>

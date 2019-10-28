@@ -1,0 +1,89 @@
+.animatedSteps {
+  display: flex;
+  flex-direction: column;
+  padding-top: $euiSizeL;
+
+  &__mainSection {
+      display: flex;
+  }
+
+  &__mainContent {
+      flex: 1;
+      padding: $euiSizeL;
+  }
+
+  &__illustration {
+      padding: $euiSizeM;
+      margin-right: $euiSizeL;
+  }
+
+  &__list {
+    padding-top: $euiSizeL;
+
+    li {
+      display: flex;
+      flex-direction: row;
+      padding-bottom: $euiSizeL;
+    }
+
+    p {
+      flex: 1;
+      padding-left: $euiSizeS;
+      max-width: 400px;
+      font-weight: $euiFontWeightRegular;
+      line-height: 1.5;
+    }
+  }
+
+  &__number {
+    @include size($euiAnimatedStepsSize - 2);
+    display: inline-block;
+    line-height: $euiAnimatedStepsSize - 4;
+    border-radius: $euiAnimatedStepsSize;
+    text-align: center;
+    color: $euiColorEmptyShade;
+    background-color: $euiColorPrimary;
+    font-size: $euiSizeM; // setting to actual base size will keep it aligned if base font-size changes
+    font-weight: $euiFontWeightMedium;
+    border: 2px solid $euiColorPrimary;
+
+    &__icon {
+      position: relative;
+      top: -2px;
+    }
+
+    &-isInactive {
+      background-color: transparent;
+      border-color: $euiColorDarkShade;
+      color: $euiColorDarkShade;
+    }
+  }
+
+  &__moreSection {
+    background: $euiColorLightestShade;
+    padding: $euiSizeL;
+
+    h2 {
+      padding-bottom: $euiSizeM;
+    }
+    
+    &__list {
+      display: flex;
+
+      li {
+        display: flex;
+        padding: 0  $euiSizeL;
+        align-items: center;
+        
+        > span {
+          padding-left: $euiSizeS;
+        }
+
+        &:first-child {
+          padding-left: 0;
+        }
+      }
+    }
+  }
+    
+}
