@@ -1,7 +1,5 @@
 import React from 'react';
-import { Link } from 'gatsby';
-import { EuiTitle, EuiSteps, EuiIcon } from '@elastic/eui';
-import styled from 'styled-components';
+import { EuiTitle, EuiIcon } from '@elastic/eui';
 
 // @ts-ignore
 import GraphIllustration from './graph-illustration';
@@ -9,7 +7,7 @@ import GraphIllustration from './graph-illustration';
 // @ts-ignore
 import Step from './animated-steps-step';
 
-export default class StepsCard extends React.Component {
+export default class StepsCard extends React.Component<any, any> {
   render() {
     return (
       <div className="euiPanel animatedSteps">

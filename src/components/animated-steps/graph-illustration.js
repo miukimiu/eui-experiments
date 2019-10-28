@@ -1,29 +1,10 @@
 import React from 'react';
 import { motion } from 'framer-motion';
 
-class SvgComponent extends React.Component {
-  constructor(props) {
-    super(props);
-  }
-
-  componentDidMount() {
-    const element = document.getElementById('abstract-arcs');
-    const computedStyle = window.getComputedStyle(element);
-
-    console.log(element);
-    console.log(computedStyle);
-  }
-
+export default class SvgComponent extends React.Component {
   render() {
-    const { props } = this;
-
     return (
-      <svg
-        width={260}
-        height={260}
-        viewBox="0 0 260 260"
-        fill="none"
-        {...props}>
+      <svg width={260} height={260} viewBox="0 0 260 260" fill="none">
         <g id="illustration-graph-steps">
           <g id="grid" fill="#E6EBF2">
             <path d="M208 165h4.017v4.068H208V165zM208 174.492h4.017v4.067H208v-4.067zM212.017 183.983H208v4.068h4.017v-4.068zM208 193.475h4.017v4.067H208v-4.067zM212.017 202.966H208v4.068h4.017v-4.068zM208 212.458h4.017v4.067H208v-4.067zM212.017 221.949H208v4.068h4.017v-4.068zM208 231.441h4.017v4.067H208v-4.067zM212.017 240.932H208V245h4.017v-4.068zM217.374 165h4.017v4.068h-4.017V165zM221.391 174.492h-4.017v4.067h4.017v-4.067zM217.374 183.983h4.017v4.068h-4.017v-4.068zM221.391 193.475h-4.017v4.067h4.017v-4.067zM217.374 202.966h4.017v4.068h-4.017v-4.068zM221.391 212.458h-4.017v4.067h4.017v-4.067zM217.374 221.949h4.017v4.068h-4.017v-4.068zM221.391 231.441h-4.017v4.067h4.017v-4.067zM217.374 240.932h4.017V245h-4.017v-4.068zM230.764 165h-4.017v4.068h4.017V165zM226.747 174.492h4.017v4.067h-4.017v-4.067zM230.764 183.983h-4.017v4.068h4.017v-4.068zM226.747 193.475h4.017v4.067h-4.017v-4.067zM230.764 202.966h-4.017v4.068h4.017v-4.068zM226.747 212.458h4.017v4.067h-4.017v-4.067zM230.764 221.949h-4.017v4.068h4.017v-4.068zM226.747 231.441h4.017v4.067h-4.017v-4.067zM230.764 240.932h-4.017V245h4.017v-4.068z" />
@@ -53,6 +34,7 @@ class SvgComponent extends React.Component {
             />
           </g>
           <motion.g
+            initial={false}
             id="star-2"
             animate={{
               scaleY: [1, 0.1, 1],
@@ -71,6 +53,7 @@ class SvgComponent extends React.Component {
             />
           </motion.g>
           <motion.g
+            initial={false}
             id="star-1"
             animate={{
               scaleY: [1, 0.1, 1],
@@ -104,8 +87,8 @@ class SvgComponent extends React.Component {
             <motion.g
               d="node-and-con-green-2"
               style={{
-                originX: `${84}px`, // 144.75px
-                originY: `${106}px`, // 139px
+                originX: '84px', // 144.75px
+                originY: '106px', // 139px
               }}
               animate={{
                 rotate: [0, 30, 0],
@@ -129,10 +112,11 @@ class SvgComponent extends React.Component {
               />
             </motion.g>
             <motion.g
+              initial={false}
               id="node-and-con-green-1"
               style={{
-                originX: `${128}px`, // 144.75px
-                originY: `${199}px`, // 139px
+                originX: '128px', // 144.75px
+                originY: '199px', // 139px
               }}
               animate={{
                 rotate: [0, -30, 0],
@@ -221,9 +205,10 @@ class SvgComponent extends React.Component {
             <g id="graph-illustration_center">
               <motion.g
                 id="abstract-arcs"
+                initial={false}
                 style={{
-                  originX: `152px`, // 144.75px
-                  originY: `138px`, // 139px
+                  originX: '152px', // 144.75px
+                  originY: '138px', // 139px
                 }}
                 animate={{
                   rotate: [0, 360, 0],
@@ -270,5 +255,3 @@ class SvgComponent extends React.Component {
     );
   }
 }
-
-export default SvgComponent;

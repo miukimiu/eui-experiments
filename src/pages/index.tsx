@@ -13,11 +13,7 @@ export default class Index extends React.Component<any, any> {
           <EuiSpacer size="m" />
 
           <div>
-            <EuiButton
-              iconSide="right"
-              iconType="arrowRight"
-              size="s"
-              onClick={() => window.alert('Button clicked')}>
+            <EuiButton iconSide="right" iconType="arrowRight" size="s">
               Complete Step
             </EuiButton>
           </div>
