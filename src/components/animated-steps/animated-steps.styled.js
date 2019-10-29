@@ -32,7 +32,7 @@ export const AnimatedSteps = styled.div`
 
     p {
       flex: 1;
-      padding-left: ${props => props.theme.euiSizeS};
+      padding-left: ${props => props.theme.euiSizeM};
       max-width: 400px;
       font-weight: ${props => props.theme.euiFontWeightRegular};
       line-height: 1.5;
@@ -43,21 +43,21 @@ export const AnimatedSteps = styled.div`
     width: ${stepCircleSize}px;
     height: ${stepCircleSize}px;
     display: inline-block;
-    line-height: ${stepCircleSize - 2}px;
+    line-height: ${stepCircleSize}px;
     border-radius: 50%;
     text-align: center;
     color: ${props => props.theme.euiColorEmptyShade};
     background-color: ${props => props.theme.euiColorPrimary};
     font-size: ${props => props.theme.euiSizeM};
     font-weight: ${props => props.theme.euiFontWeightMedium};
-    border: 2px solid ${props => props.theme.euiColorPrimary};
+    border: 1px solid ${props => props.theme.euiColorPrimary};
 
     .animatedSteps__number__icon {
       position: relative;
       top: -2px;
     }
 
-    .animatedSteps__number-isInactive {
+    &-isInactive {
       background-color: transparent;
       border-color: ${props => props.theme.euiColorDarkShade};
       color: ${props => props.theme.euiColorDarkShade};

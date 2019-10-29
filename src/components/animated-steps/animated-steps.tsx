@@ -43,7 +43,7 @@ export default class StepsCard extends React.Component<any, any> {
         </div>
         <div className="animatedSteps__moreSection">
           <EuiTitle size="xs">
-            <h2>Three steps to your graph</h2>
+            <h2>Do you want to learn more?</h2>
           </EuiTitle>
           <ul className="animatedSteps__moreSection__list">
             <li>

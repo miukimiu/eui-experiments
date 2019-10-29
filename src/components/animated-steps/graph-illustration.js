@@ -37,7 +37,7 @@ export default class SvgComponent extends React.Component {
             initial={false}
             id="star-2"
             animate={{
-              scaleY: [1, 0.1, 1],
+              scale: [1, 0.1, 1],
             }}
             transition={{
               duration: 0.25,
@@ -56,7 +56,7 @@ export default class SvgComponent extends React.Component {
             initial={false}
             id="star-1"
             animate={{
-              scaleY: [1, 0.1, 1],
+              scale: [1, 0.1, 1],
             }}
             transition={{
               duration: 0.25,
@@ -71,7 +71,18 @@ export default class SvgComponent extends React.Component {
               fill="#E6EBF2"
             />
           </motion.g>
-          <g id="square-gray-1">
+          <motion.g
+            initial={false}
+            id="star-2"
+            animate={{
+              scale: [1, 0.1, 1],
+            }}
+            transition={{
+              duration: 0.25,
+              loop: Infinity,
+              repeatDelay: 8,
+            }}
+            id="star-3">
             <path
               id="Union_3"
               fillRule="evenodd"
@@ -79,7 +90,7 @@ export default class SvgComponent extends React.Component {
               d="M54.954 203.686l-2.782 1.124 1.686 4.172-4.172 1.686 1.123 2.781 4.173-1.686 1.686 4.173 2.781-1.124-1.686-4.172 4.173-1.686-1.124-2.782-4.172 1.686-1.686-4.172z"
               fill="#E6EBF2"
             />
-          </g>
+          </motion.g>
           <g id="square-yellow-1">
             <path id="Rectangle_5" fill="#FEC514" d="M110 247h12v12h-12z" />
           </g>
