@@ -21,15 +21,16 @@ import {
 } from '@elastic/eui';
 import { ThemeProvider } from 'styled-components';
 import { keyCodes } from '@elastic/eui/lib/services';
-import sun from '../images/sun.svg';
-import moon from '../images/moon.svg';
+import sun from '../../images/sun.svg';
+import moon from '../../images/moon.svg';
 import {
   topLinks,
   exploreLinks,
   solutionsLinks,
   adminLinks,
   breadcrumbs,
-} from '../data/data';
+} from '../../data/data';
+import { Layout } from './layout.styled';
 
 export default class extends Component {
   state = {
@@ -38,39 +39,11 @@ export default class extends Component {
     ssrDone: false,
   };
 
-  constructor(props) {
-    super(props);
-    this.state = {
-      toggleLight: localStorage.getItem('theme') === 'light',
-      theme: localStorage.getItem('theme') === 'light' ? 'light' : 'dark',
-      ssrDone: false,
-    };
-  }
-
-  // componentDidMount() {
-  //   const { theme } = this.state;
-
-  //   try {
-  //     if (theme === 'light') {
-  //       console.log('theme light?', theme);
-  //       this.theme = require('../themes/theme_light.scss');
-  //     } else if (theme === 'dark') {
-  //       console.log('theme dark?', theme);
-  //       this.theme = require('../themes/theme_dark.scss');
-  //     }
-  //   } catch (e) {
-  //     console.error(e);
-  //   }
-
-  //   this.setState({ ssrDone: true });
-  // }
-
   setTheme = () => {
     this.setState(
       {
         theme: this.state.theme === 'light' ? 'dark' : 'light',
         toggleLight: this.state.theme === 'light',
-        hemeIsLoading: true,
       },
       () => {
         localStorage.setItem('theme', this.state.theme);
@@ -78,6 +51,12 @@ export default class extends Component {
       }
     );
   };
+
+  componentDidMount() {
+    this.setState({
+      ssrDone: true,
+    });
+  }
 
   onKeyDown = event => {
     if (event.keyCode === keyCodes.ESCAPE) {
@@ -115,9 +94,11 @@ export default class extends Component {
 
   render() {
     const { children } = this.props;
-    const { theme } = this.state;
+    const { theme, ssrDone } = this.state;
 
-    console.log('euiLightVars', euiLightVars);
+    if (!ssrDone) {
+      return <p>Loading</p>;
+    }
 
     return (
       <ThemeProvider
@@ -130,15 +111,7 @@ export default class extends Component {
           )}
         </Helmet>
         <EuiFocusTrap>
-          <div
-            style={{
-              position: 'fixed',
-              top: 0,
-              left: 0,
-              height: '100%',
-              width: '100%',
-            }}
-            onKeyDown={this.onKeyDown}>
+          <Layout onKeyDown={this.onKeyDown}>
             <EuiHeader>
               <EuiHeaderSection grow={true}>
                 <EuiShowFor sizes={['xs', 's']}>
@@ -153,7 +126,7 @@ export default class extends Component {
                 {this.renderBreadcrumbs()}
 
                 <EuiHeaderSection side="right">
-                  <EuiHeaderSectionItem>
+                  <EuiHeaderSectionItem className="themeSwitcherCt">
                     <EuiButtonToggle
                       label="Toggle Me"
                       iconType={this.state.toggleLight ? moon : sun}
@@ -180,7 +153,7 @@ export default class extends Component {
                 {children}
               </EuiPageBody>
             </EuiPage>
-          </div>
+          </Layout>
         </EuiFocusTrap>
       </ThemeProvider>
     );
