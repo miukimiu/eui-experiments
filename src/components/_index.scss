@@ -1,2 +1,6 @@
-@import './chrome/index';
-@import './animated-steps/index'
+@import './layout';
+// @import './animated-steps/index';
+
+body {
+    background: red !important;
+}

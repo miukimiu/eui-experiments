@@ -1,6 +1,6 @@
 import React from 'react';
-import Chrome from './src/components/chrome/chrome';
+import Layout from './src/components/layout';
 
 export const wrapRootElement = ({ element }) => {
-  return <Chrome>{element}</Chrome>;
+  return <Layout>{element}</Layout>;
 };

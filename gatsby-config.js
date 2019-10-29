@@ -1,9 +1,9 @@
 module.exports = {
-  pathPrefix: '/gatsby-eui-starter',
+  pathPrefix: '/eui-experiments',
   siteMetadata: {
-    title: `Gatsby EUI Starter`,
-    description: `Start building Kibana protoypes quickly with the Gatsby EUI Starter`,
-    author: `@daveyholler`,
+    title: `Gatsby EUI Experiments`,
+    description: `Just some EUI Experiments`,
+    author: `@miukimiu`,
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
@@ -30,6 +30,8 @@ module.exports = {
         icon: `src/images/logo_elastic.png`, // This path is relative to the root of the site.
       },
     },
+    `gatsby-plugin-react-helmet`,
+    `gatsby-plugin-styled-components`,
     // this (optional) plugin enables Progressive Web App + Offline functionality
     // To learn more, visit: https://gatsby.dev/offline
     // `gatsby-plugin-offline`,

@@ -1,6 +1,7 @@
 import React from 'react';
 import { EuiIcon } from '@elastic/eui';
 import classNames from 'classnames';
+import styled from 'styled-components';
 
 export default class Step extends React.Component {
   render() {

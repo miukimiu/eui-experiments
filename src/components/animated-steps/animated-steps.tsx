@@ -7,10 +7,12 @@ import GraphIllustration from './graph-illustration';
 // @ts-ignore
 import Step from './animated-steps-step';
 
+import { AnimatedSteps } from './animated-steps.styled';
+
 export default class StepsCard extends React.Component<any, any> {
   render() {
     return (
-      <div className="euiPanel animatedSteps">
+      <AnimatedSteps className="euiPanel">
         <div className="animatedSteps__mainSection">
           <div className="animatedSteps__mainContent">
             <EuiTitle size="s">
@@ -54,7 +56,7 @@ export default class StepsCard extends React.Component<any, any> {
             </li>
           </ul>
         </div>
-      </div>
+      </AnimatedSteps>
     );
   }
 }
