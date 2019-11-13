@@ -22,17 +22,21 @@ export default class StepsCard extends React.Component<any, any> {
             <ul className="animatedSteps__list">
               <li>
                 <Step number={1} checked />
-                <p>Select a data source </p>
+                <p>
+                  Select a <a href="/">data source</a>
+                </p>
               </li>
               <li>
                 <Step number={2} />
-                <p>Add fields</p>
+                <p>
+                  <a href="/">Add fields</a>
+                </p>
               </li>
               <li>
                 <Step number={3} isInactive />
                 <p>
                   Enter a query in the search bar to start exploring. Don't know
-                  where to start? Graph the top terms
+                  where to start? <a href="/">Graph the top terms</a>
                 </p>
               </li>
             </ul>
@@ -43,12 +47,12 @@ export default class StepsCard extends React.Component<any, any> {
         </div>
         <div className="animatedSteps__moreSection">
           <EuiTitle size="xs">
-            <h2>Do you want to learn more?</h2>
+            <h2>Want to learn more?</h2>
           </EuiTitle>
           <ul className="animatedSteps__moreSection__list">
             <li>
               <EuiIcon type="videoPlayer" />
-              <span>Watch video tutorial</span>
+              <span>Watch video</span>
             </li>
             <li>
               <EuiIcon type="training" />
